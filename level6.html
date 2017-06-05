@@ -93,33 +93,19 @@
                             <div class="col-md-12 text-center">
                                 <div class="header-text">
                                     <h2><span class="typing"></span></h2>
-                                    <script language=JavaScript>
-{
-var a="sub99";
-function check()
-{
-if (document.a.c.value == a)
-{
-document.location.href=""+document.a.c.value+".html";
-}
-else
-{
-alert ("Try again");
-}
-}
-}
-</script>
+                            
 
 <div align="center">
 <center>
 <tr>
 <td width="100%">
 <p align="center"><font size="1" face="Tahoma"><br>
-</font><font size="6" face="Tahoma" ><p class="animated infinte pulse">Password:</p></font><form name="a" action="javascript:check()">
+</font><font size="6" face="Tahoma" ><p class="animated infinte pulse">Password:</p></font>
 <p align="center">
-<input class="newlogin"  type="login" name="c" maxlength="65" size="26"><br>
-<br>
-<input type="submit"class="button button-style button-style-icon fa fa-long-arrow-right smoth-scroll"  value=" Log In "></p>
+<form method="POST" action="level61.php">
+    <input class="newlogin"  type="login" name="c" maxlength="65" size="26"><br>
+    <br>
+    <input type="submit"class="button button-style button-style-icon fa fa-long-arrow-right smoth-scroll"  value=" Log In "></p>
 </form></p>
 </td>
 </tr>
